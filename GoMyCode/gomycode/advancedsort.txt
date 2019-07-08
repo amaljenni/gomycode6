@@ -1,0 +1,42 @@
+function advancedSort(arr) {
+    var h = 0;
+    var b = [];
+    var d = [];
+    var a;
+    var o;
+    var c = 0;
+    var m = 0;
+for (var i=0;i<arr.length;i++)
+{
+	if(b.indexOf(arr[i])==-1){
+		b.push(arr[i]);
+	}
+}
+	for(j=0;j<b.length;j++){
+		d[j]=[];
+		for(k=0;k<arr.length;k++){
+			if(arr[k]==b[j])
+				d[j].push(arr[k]);
+		}
+		
+	}
+	return d;
+}
+  /*  for (i = 0; i < arr.length; i++) {
+        console.log(i)
+        a = arr[i];
+        c = 0;
+        for (j = 0; j < arr.length; j++) {
+            if (arr[j] == a) {
+                c = c + 1;
+            }
+        }
+        for (k = 0; k < c; k++) {
+            b[k] = a;
+        }
+        if (d.includes(b) == false) {
+            d.push(b);
+        }
+    }
+    return (d)
+}*/

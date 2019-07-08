@@ -1,0 +1,44 @@
+body{
+    background:white
+}
+.container{
+    background-image: url("../res/téléchargement.jpg");
+    height: 450px;
+    width: 100%;
+    padding: 50px;
+    
+
+}
+.title{
+    font-size: 800%;
+    color: beige;
+}
+.center{
+    text-align: center;
+}
+.margin{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.d{
+    border:black;
+display: inline-block;
+}
+.h:hover{
+    border:5px solid blue
+
+}
+.a{
+    width: 700px;
+    height: 400px;
+    background: gray;
+    color:white;
+}
+.b{
+    width: 700px;
+    height: 400px;
+    background: black;
+    color:white;
+}
+
+  
